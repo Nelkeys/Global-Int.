@@ -101,7 +101,6 @@ nav ul li a{
 
 
 .hero img{
-    border-radius: 2em;
     width: 33em;
     height: 20em;
 }
@@ -325,4 +324,28 @@ nav ul li a{
     background: var(--green);
     color: var(--background);
     border-radius: 2em;
+}
+
+
+
+
+
+
+
+.addresses{
+    margin: 5em 25em;
+}
+.qr-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+}
+.qr-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.qr-box img{
+    width: 22em;
 }
