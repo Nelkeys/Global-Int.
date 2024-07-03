@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') all;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background: #f9f9f9;
+    --green: #44AA88;
+}
+a{
+    text-decoration: none;
+}
+
+
+body{
+    background: var(--background);
+    font-size: 15px;
+    font-family:'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25em;
+    height: 5em;
+    border: 2px solid #ccc;
+}
+.logo{
+    color: var(--green);
+    font-weight: 700;
+    color: #147756;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 5em;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #111;
+}
+
+
+
+
+.btns{
+    display: flex;
+    gap: 2em;
+}
+.cu{
+    background: var(--green);
+    padding: 10px 15px;
+    border-radius: 2em;
+    width: 8em;
+    text-align: center;
+    color: var(--background);
+}
+.gc{
+    border: 1px solid var(--green);
+    padding: 10px 15px;
+    width: 8em;
+    border-radius: 2em;
+    text-align: center;
+    color: var(--green);
+}
+
+
+
+
+.hero{
+    display: flex;
+    align-items: '' ;
+    justify-content: space-between;
+    margin: 4em 25em;
+    gap: 2em;
+}
+
+.hero-left h1{
+    font-size: 230%;
+    font-weight: 550;
+    margin-bottom: .5em;
+}
+.hero-left p{
+    margin-bottom: 2em;
+    font-size: 90%;
+}
+.hero-link a{
+    padding: .5em 1.5em;
+    border: 1px solid var(--green);
+    color: var(--green);
+    border-radius: 2em;
+}
+
+
+
+
+.hero img{
+    border-radius: 2em;
+    width: 33em;
+    height: 20em;
+}
+
+
+
+
+
+
+
+
+
+
+
+.advert-box{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 8em;
+    padding: 2.5em 25em;
+    border: .5px solid #ddd;
+}
+.advert-div{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.green{
+    background: var(--green);
+    border-radius: 50%;
+    width: 3em;
+    height: 3em ;
+}
+.color-g{
+    color: var(--green);
+}
+
+
+
+
+
+
+
+
+
+
+
+.hero2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4em 25em;
+    gap: 3em;
+}
+.hero2-right h1{
+    margin-bottom: .5em;
+    font-size: 230%;
+    font-weight: 550;
+}
+.hero2-right p{
+    margin-bottom: 2em;
+    font-size: 90%;
+}
+.hero2-link a{
+    padding: .5em 1.5em;
+    border: 1px solid var(--green);
+    color: var(--green);
+    border-radius: 2em;
+}
+.hero2 img{
+    border-radius: 2em;
+    width: 32em;
+    height: 17em;
+}
+
+
+
+.welcome-message{
+    margin: 5em 25em;
+}
+.welcome-message h1{
+    font-size: 230%;
+    font-weight: 550;
+    width: 60%;
+    margin-bottom: 1em;
+}
+.welcome-article{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.welcome-article p{
+    width: 50%;
+}
+.welcome-article a{
+    padding: .5em 1.5em;
+    border: 1px solid var(--green);
+    color: var(--green);
+    border-radius: 2em;
+}
+
+
+.why-choose{
+    margin: 5em 25em;
+}
+.why-choose h2{
+    text-align: center;
+}
+.why-points{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+.point{
+    border: 1px solid var(--green);
+    padding: 1em;
+    height: 16em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 1em;
+    margin-top: 3em;
+}
+.point i{
+    font-size: 20px;
+    padding: 1em;
+    background: var(--green);
+    color: var(--background);
+    width: 1em;
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.middle-point{
+    background: var(--green);
+    color: var(--background);
+}
+.middle-point i{
+   border: 3px solid var(--background);
+}
+
+
+
+.hero3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4em 25em;
+    gap: 4em;
+}
+
+/*********NOTE THE MARGIN LEFT *****/
+.hero3 img{
+    border-radius: 2em;
+    width: 28em;
+    margin-left: 4em;
+}
+/*********NOTE THE MARGIN LEFT *****/
+
+.hero3-right{
+    flex-direction: column;
+    width: 100%;
+}
+.hero3 h2{
+    margin-bottom: 1em;
+}
+.hero3-right p{
+    width: 80%;
+}
+
+
+
+
+.pricing{
+    margin: 5em 25em;
+    text-align:  center;
+}
+.pricing h1{
+    margin-bottom: 1em;
+    font-weight: 500;
+    font-size: 190%;
+}
+.pricing .top-p{
+    margin-bottom: 4em;
+}
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+.price{
+    height: 40em;
+    width: 100%;
+    border: 3px solid #ddd;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4em 0;
+}
+.price h1{
+    font-size: 240%;
+}
+.center-price{
+    border: 4px solid var(--green);
+}
+.center-price h1{
+    background: var(--green);
+    color: var(--background);
+    width: 100%;
+    font-size: 130%;
+    font-weight: 500;
+}
+.price a{
+    padding: .5em 1.5em;
+    background: var(--green);
+    color: var(--background);
+    border-radius: 2em;
+}
