@@ -735,7 +735,7 @@ footer div .f-mail i {
 
     .hero img {
         width: 100%;
-        height: 25em;
+        height: auto;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
@@ -772,7 +772,7 @@ footer div .f-mail i {
 
     .hero2 img {
         width: 90%;
-        height: 25em;
+        height: auto;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
