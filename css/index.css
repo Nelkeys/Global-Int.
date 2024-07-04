@@ -24,12 +24,16 @@ body {
 
     -webkit-tap-highlight-color: transparent;
 
-    -webkit-user-select: none; /* Disable text selection for WebKit browsers */
-    -moz-user-select: none; /* Disable text selection for Mozilla Firefox */
-    -ms-user-select: none; /* Disable text selection for Microsoft browsers */
-    user-select: none; 
+    -webkit-user-select: none;
+    /* Disable text selection for WebKit browsers */
+    -moz-user-select: none;
+    /* Disable text selection for Mozilla Firefox */
+    -ms-user-select: none;
+    /* Disable text selection for Microsoft browsers */
+    user-select: none;
 }
-.floating-message{
+
+.floating-message {
     display: flex;
     align-items: center;
     gap: .5em;
@@ -39,7 +43,8 @@ body {
     bottom: 2em;
     z-index: 999;
 }
-.floating-message p{
+
+.floating-message p {
     padding: .2em 1em;
     background: var(--background);
     color: #111;
@@ -47,7 +52,8 @@ body {
     box-shadow: 0 0 5px #ccc;
     display: none;
 }
-.floating-message i{
+
+.floating-message i {
     padding: .5em;
     border-radius: 50%;
     background: #FF485F;
@@ -97,7 +103,7 @@ nav ul li a {
     gap: 2em;
 }
 
-.cu{
+.cu {
     background: var(--green);
     padding: .5em 1em;
     border-radius: 2em;
@@ -106,7 +112,7 @@ nav ul li a {
     color: var(--background);
 }
 
-.gc{
+.gc {
     border: 1px solid var(--green);
     padding: .5em 1em;
     width: 8em;
@@ -185,7 +191,8 @@ nav ul li a {
     width: 4em;
     height: 4em;
 }
-.green i{
+
+.green i {
     font-size: 200%;
     color: var(--background);
 }
@@ -586,6 +593,7 @@ footer {
 footer a {
     color: var(--background);
 }
+
 footer div {
     display: flex;
     align-items: flex-start;
@@ -593,13 +601,15 @@ footer div {
     gap: 1em;
     width: 50%;
 }
-.f-get-started{
+
+.f-get-started {
     background: var(--background);
     color: var(--green);
     padding: .7em 1.7em;
     border-radius: 2em;
 }
-footer div .f-mail p{
+
+footer div .f-mail p {
     display: flex;
     gap: .5em;
 }
@@ -608,7 +618,8 @@ footer div .f-mail i {
     font-size: 18px;
     color: var(--gold);
 }
-.bxl-whatsapp{
+
+.bxl-whatsapp {
     font-size: 160%;
 }
 
@@ -634,7 +645,7 @@ footer div .f-mail i {
     .why-choose,
     .pricing,
     .addresses,
-    .reviews{
+    .reviews {
         margin: 10em 15em;
     }
 
@@ -642,7 +653,8 @@ footer div .f-mail i {
     .reviews {
         margin: 10em 0;
     }
-    footer{
+
+    footer {
         padding: 10em 15em;
     }
 }
@@ -664,7 +676,8 @@ footer div .f-mail i {
     .reviews {
         margin: 10em 0;
     }
-    footer{
+
+    footer {
         padding: 10em 15em;
     }
 
@@ -689,7 +702,8 @@ footer div .f-mail i {
     .reviews {
         margin: 10em 0;
     }
-    footer{
+
+    footer {
         padding: 10em 8em;
     }
 }
@@ -711,7 +725,8 @@ footer div .f-mail i {
     .reviews {
         margin: 10em 0;
     }
-    footer{
+
+    footer {
         padding: 10em 6em;
     }
 }
@@ -725,7 +740,7 @@ footer div .f-mail i {
     .hero2,
     .welcome-message,
     .why-choose,
-    .pricing{
+    .pricing {
         margin: 10em 4em;
     }
 
@@ -733,7 +748,8 @@ footer div .f-mail i {
     .reviews {
         margin: 10em 0;
     }
-    footer{
+
+    footer {
         padding: 10em 4em;
     }
 }
@@ -747,7 +763,7 @@ footer div .f-mail i {
     .hero2,
     .welcome-message,
     .why-choose,
-    .pricing{
+    .pricing {
         margin: 10em 1em;
     }
 
@@ -755,10 +771,12 @@ footer div .f-mail i {
     .reviews {
         margin: 10em 0;
     }
-    footer{
+
+    footer {
         padding: 10em 1em;
     }
 }
+
 @media (max-width: 750px) {
     body {
         font-size: 13px !important;
@@ -768,7 +786,8 @@ footer div .f-mail i {
         flex-direction: column;
         height: auto !important;
     }
-    .logo{
+
+    .logo {
         margin: 1em;
     }
 
@@ -915,9 +934,11 @@ footer div .f-mail i {
     .qr-boxes {
         flex-direction: column;
     }
-    .qr-boxes img{
+
+    .qr-boxes img {
         width: 18em;
     }
+
     .hero3 {
         margin: 8em 2em;
         flex-direction: column;
@@ -960,9 +981,11 @@ footer div .f-mail i {
         padding: 5em 2em;
         flex-direction: column;
     }
-    footer div{
+
+    footer div {
         width: 100%;
     }
+
     .footer-top p {
         width: 90%;
     }
