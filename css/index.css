@@ -740,18 +740,122 @@ footer div .f-mail i {
         text-align: center;
     }
     .footer-top p{
-        
+
         background: red;
     }
+}
 
 
 
 
 
+@media (max-width:1650px) {
+    header{
+        padding: 0 15em;
+    }
+    .hero {
+        margin: 10em 15em;
+    }
+    .hero2 {
+        margin: 10em 15em;
+    }
+    .welcome-message {
+        margin: 10em 15em;
+    }
+    .why-choose {
+        margin: 10em 15em;
+    }
+    .pricing{
+        margin: 10em 15em;
+    }
+    .addresses{
+        margin: 10em 0;
+    }
+    .reviews{
+        margin: 10em 0;
+    }
+    footer{
+        padding: 10em 15em;
+    }
+}
+
+@media (max-width:1400px) {
+    header{
+        padding: 0 12em;
+    }
+    .hero,
+    .hero2,
+    .welcome-message,
+    .why-choose,
+    .pricing,
+    .addresses,
+    .reviews,
+    footer {
+        margin: 10em 15em;
+    }
+}
 
 
 
+@media (max-width:1200px) {
+    header{
+        padding: 0 8em;
+    }
+    .hero,
+    .hero2,
+    .welcome-message,
+    .why-choose,
+    .pricing,
+    .addresses,
+    .reviews,
+    footer {
+        margin: 10em 8em;
+    }
+}
 
+@media (max-width:1100px) {
+    header{
+        padding: 0 6em;
+    }
+    .hero,
+    .hero2,
+    .welcome-message,
+    .why-choose,
+    .pricing,
+    .addresses,
+    .reviews,
+    footer {
+        margin: 10em 6em;
+    }
+}
 
-
+@media (max-width:970px) {
+    header{
+        padding: 0 4em;
+    }
+    .hero,
+    .hero2,
+    .welcome-message,
+    .why-choose,
+    .pricing,
+    .addresses,
+    .reviews,
+    footer {
+        margin: 10em 4em;
+    }
+}
+@media (max-width:800px) {
+    header{
+        padding: 0 1em;
+    }
+    .hero,
+    .hero2,
+    .welcome-message,
+    .why-choose,
+    .pricing,
+    .addresses,
+    .reviews,
+    footer {
+        margin: 10em 1em;
+    }
 }
