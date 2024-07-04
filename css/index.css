@@ -65,6 +65,7 @@ header {
     color: var(--green);
     font-weight: 700;
     color: #147756;
+    cursor: pointer;
 }
 
 nav ul {
@@ -89,18 +90,18 @@ nav ul li a {
     gap: 2em;
 }
 
-.cu {
+.cu{
     background: var(--green);
-    padding: 10px 15px;
+    padding: .5em 1em;
     border-radius: 2em;
     width: 8em;
     text-align: center;
     color: var(--background);
 }
 
-.gc {
+.gc{
     border: 1px solid var(--green);
-    padding: 10px 15px;
+    padding: .5em 1em;
     width: 8em;
     border-radius: 2em;
     text-align: center;
@@ -591,8 +592,9 @@ footer div {
     padding: .7em 1.7em;
     border-radius: 2em;
 }
-footer div .f-mail {
+footer div .f-mail p{
     display: flex;
+    gap: .5em;
 }
 
 footer div .f-mail i {
