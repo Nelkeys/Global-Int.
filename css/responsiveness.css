@@ -203,7 +203,9 @@
     .advert-div {
         flex-direction: column;
     }
-
+    .advert-div-text{
+        align-items: center;
+    }
 
 
 

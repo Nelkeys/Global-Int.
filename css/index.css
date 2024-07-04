@@ -203,8 +203,12 @@ nav ul li a {
 }
 
 .advert-div-text{
-    line-height: 2.5em;
     font-size: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
 }
 
 
