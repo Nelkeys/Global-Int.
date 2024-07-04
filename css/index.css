@@ -604,7 +604,7 @@ footer div .f-mail i {
 
     .hero img {
         width: 100%;
-        height: 30em;
+        height: 25em;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
@@ -622,6 +622,7 @@ footer div .f-mail i {
         border: none;
         flex-direction: column;
         gap: 3em;
+        padding: 2em 2em !important;
     }
 
     .advert-div {
@@ -640,7 +641,7 @@ footer div .f-mail i {
 
     .hero2 img {
         width: 90%;
-        height: 30em;
+        height: 25em;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
@@ -723,7 +724,9 @@ footer div .f-mail i {
     .qr-boxes {
         flex-direction: column;
     }
-
+    .qr-boxes img{
+        width: 18em;
+    }
     .hero3 {
         margin: 5em 2em;
         flex-direction: column;
@@ -775,8 +778,7 @@ footer div .f-mail i {
     }
 
     .footer-top p {
-
-        background: red;
+        width: 90%;
     }
 }
 
