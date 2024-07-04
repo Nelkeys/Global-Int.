@@ -141,10 +141,17 @@ nav ul li a {
 }
 
 .green {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: var(--green);
     border-radius: 50%;
-    width: 3em;
-    height: 3em;
+    width: 4em;
+    height: 4em;
+}
+.green i{
+    font-size: 200%;
+    color: var(--background);
 }
 
 .color-g {
@@ -306,6 +313,10 @@ nav ul li a {
 
 
 
+
+
+
+
 .pricing {
     margin: 10em 25em;
     text-align: center;
@@ -426,7 +437,8 @@ nav ul li a {
     padding: .5em 1em;
     color: var(--background);
     font-size: 90%;
-    width: auto;
+    width: 15em;
+    text-align: center;
 }
 
 .copy-gold {
