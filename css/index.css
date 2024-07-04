@@ -426,6 +426,7 @@ nav ul li a {
     padding: .5em 1em;
     color: var(--background);
     font-size: 90%;
+    width: auto;
 }
 
 .copy-gold {
