@@ -535,26 +535,15 @@ footer {
 footer a {
     color: var(--background);
 }
-
 footer div {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 1em;
-    width: 40em;
+    width: 50%;
 }
-
-.f-get-started {
-    padding: .8em 1.8em;
-    background: var(--background);
-    color: var(--green);
-    border-radius: 2em;
-}
-
-
 footer div .f-mail {
     display: flex;
-    align-items: '';
 }
 
 footer div .f-mail i {
@@ -915,7 +904,9 @@ footer div .f-mail i {
     .footer-top {
         text-align: center;
     }
-
+    footer div{
+        width: 100%;
+    }
     .footer-top p {
         width: 90%;
     }
