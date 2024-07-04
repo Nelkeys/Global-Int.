@@ -218,8 +218,8 @@ nav ul li a {
 
 .welcome-article a {
     padding: .5em 1.5em;
-    border: 1px solid var(--green);
-    color: var(--green);
+    background: var(--green);
+    color: var(--background);
     border-radius: 2em;
 }
 
@@ -240,7 +240,6 @@ nav ul li a {
 }
 
 .point {
-    border: 1px solid var(--green);
     padding: 1em;
     height: 16em;
     display: flex;
@@ -467,23 +466,21 @@ nav ul li a {
     gap: 2em;
 }
 
-.review{
+.review {
     width: 30em;
     margin-top: 3em;
     padding: 2em;
     border-radius: 1em;
     cursor: pointer;
     font-size: 90%;
-}
-.review:hover{
-    border: 2px solid var(--green);
-}
+}   
 
 .review p {
     text-align: center;
     margin: 2em 0;
 }
-.reviewer-name{
+
+.reviewer-name {
     font-weight: 550;
     font-size: 130%;
 }
@@ -494,10 +491,12 @@ nav ul li a {
     justify-content: center;
     color: var(--gold);
 }
-.bxs-quote-left{
+
+.bxs-quote-left {
     font-size: 30px;
 }
-.bxs-quote-right{
+
+.bxs-quote-right {
     font-size: 30px;
     width: 100%;
     text-align: right;
@@ -522,7 +521,7 @@ nav ul li a {
 
 
 
-footer{
+footer {
     padding: 5em 25em;
     display: flex;
     align-items: flex-start;
@@ -532,10 +531,12 @@ footer{
     font-size: 90%;
     gap: 2em;
 }
-footer a{
+
+footer a {
     color: var(--background);
 }
-footer div{
+
+footer div {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -543,7 +544,7 @@ footer div{
     width: 40em;
 }
 
-.f-get-started{
+.f-get-started {
     padding: .8em 1.8em;
     background: var(--background);
     color: var(--green);
@@ -551,11 +552,12 @@ footer div{
 }
 
 
-footer div .f-mail{
+footer div .f-mail {
     display: flex;
     align-items: '';
 }
-footer div .f-mail i{
+
+footer div .f-mail i {
     font-size: 18px;
     color: var(--gold);
 }
@@ -566,37 +568,44 @@ footer div .f-mail i{
 
 
 
- @media (max-width: 750px) {
-    body{
+@media (max-width: 750px) {
+    body {
         font-size: 13px !important;
     }
-    header{
+
+    header {
         flex-direction: column;
         height: auto !important;
     }
-    nav ul{
+
+    nav ul {
         gap: 1em !important;
         flex-direction: column;
     }
-    .btns{
+
+    .btns {
         flex-direction: column;
         gap: 1em;
         margin: 1em 0;
     }
-    .hero{
-        margin: 3em 2em;
+
+    .hero {
+        margin: 5em 2em;
         flex-direction: column;
     }
-    .hero-link{
+
+    .hero-link {
         display: flex;
         justify-content: center;
     }
-    .hero img{
+
+    .hero img {
         width: 100%;
         height: 30em;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
+
     .hero h1 {
         font-size: 140%;
     }
@@ -606,12 +615,13 @@ footer div .f-mail i{
 
 
 
-    .advert-box{
+    .advert-box {
         border: none;
         flex-direction: column;
         gap: 3em;
     }
-    .advert-div{
+
+    .advert-div {
         flex-direction: column;
     }
 
@@ -620,21 +630,128 @@ footer div .f-mail i{
 
 
     .hero2 {
-       flex-direction: column;
-        margin: 3em 2em;
+        flex-direction: column;
+        margin: 5em 2em;
         gap: 3em;
     }
-    .hero2 img{
+
+    .hero2 img {
         width: 90%;
         height: 30em;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
+
     .hero2-right h1 {
         font-size: 140%;
     }
-    .hero2-link{
+
+    .hero2-link {
         display: flex;
         justify-content: center;
     }
+
+
+
+
+    .welcome-message {
+        margin: 5em 2em;
+    }
+    .welcome-message h1{
+        text-align: start;
+        width: 100%;
+        font-size: 140%;
+        margin-bottom: .5em;
+    }
+    .welcome-article{
+        width: 100% !important;
+        align-items: start;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .welcome-article p {
+        width: 100%;
+        margin-top: 2em;
+    }
+
+
+
+    .why-choose {
+        margin: 5em 2em;
+    }
+    
+    .why-choose h2 {
+        text-align: start;
+        font-size: 140%;
+    }
+
+    .why-points{
+        flex-direction: column;
+    }
+    .point{
+        padding: 2.5em 1em;
+    }
+
+
+
+
+
+    .pricing{
+        margin: 5em 2em;
+    }
+    .prices{
+        flex-direction: column;
+    }
+
+
+
+
+
+
+    .addresses{
+        margin: 5em 0;
+    }
+    .qr-boxes{
+        flex-direction: column;
+    }
+
+
+
+    .reviews{
+        margin: 5em 0;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .review{
+        width: 80%;
+    }
+    
+
+
+    footer{
+        padding: 5em 2em;
+        flex-direction: column;
+    }
+    .footer-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-top p{
+        
+        background: red;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
