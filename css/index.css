@@ -241,7 +241,7 @@ nav ul li a {
 
 .point {
     padding: 1em;
-    height: 16em;
+    height: 18em;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -541,6 +541,12 @@ footer div {
     flex-direction: column;
     gap: 1em;
     width: 50%;
+}
+.f-get-started{
+    background: var(--background);
+    color: var(--green);
+    padding: .7em 1.7em;
+    border-radius: 2em;
 }
 footer div .f-mail {
     display: flex;
@@ -899,10 +905,6 @@ footer div .f-mail i {
     footer {
         padding: 5em 2em;
         flex-direction: column;
-    }
-
-    .footer-top {
-        text-align: center;
     }
     footer div{
         width: 100%;
