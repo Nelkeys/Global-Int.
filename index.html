@@ -254,7 +254,7 @@
             <div class="qr-box">
                 <img src="assets/BTC1.jpg" alt="">
 
-                <p><b>37dm3o8cD8irB94KZqJDjyLDVpbgwmMtzf</b></p>
+                <p class="bchain-address"><b>37dm3o8cD8irB94KZqJDjyLDVpbgwmMtzf</b></p>
 
                 <p><b>BTC</b></p>
 
@@ -266,7 +266,7 @@
             <div class="qr-box">
                 <img src="assets/USDT1.jpg" alt="">
 
-                <p><b>0x4ecA4F3610491b7Cb3dA83f070551EcABdca238c </b></p>
+                <p class="bchain-address"><b>0x4ecA4F3610491b7Cb3dA83f070551EcABdca238c </b></p>
 
                 <p><b>USDT TRC 20</b></p>
 
@@ -494,6 +494,18 @@
 
         icon.addEventListener('mouseout', () => {
             message.style.display = 'none';
+        });
+
+
+        document.querySelectorAll('.copy-address').forEach(copyButton => {
+            copyButton.addEventListener('click', function() {
+                const address = this.closest('.qr-box').querySelector('.bchain-address b').innerText;
+                navigator.clipboard.writeText(address).then(function() {
+                    alert('Wallet address copied to clipboard!');
+                }).catch(function(error) {
+                    console.error('Error copying text: ', error);
+                });
+            });
         });
     </script>
 

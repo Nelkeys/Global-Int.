@@ -467,6 +467,7 @@ nav ul li a {
     font-size: 90%;
     width: 15em;
     text-align: center;
+    cursor: pointer;
 }
 
 .copy-gold {
