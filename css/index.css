@@ -45,7 +45,7 @@ body {
     border-radius: 50%;
     background: #FF485F;
     color: var(--background);
-    font-size: 180%;
+    font-size: 150%;
     cursor: pointer;
     box-shadow: 0 0 5px #555;
 }
