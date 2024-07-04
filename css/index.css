@@ -418,6 +418,7 @@ nav ul li a {
     border: 1px solid var(--green);
     color: var(--green);
     border-radius: 2em;
+    width: auto;
 }
 
 .copy-address {
