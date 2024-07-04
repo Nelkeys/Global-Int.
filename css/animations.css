@@ -13,7 +13,7 @@
 /* CSS for fade-right animation */
 .fade-right {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(30px);
     transition: opacity .5s ease-out, transform .5s ease-out;
 }
 

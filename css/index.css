@@ -155,7 +155,7 @@ nav ul li a {
 
 
 .hero img {
-    width: 35em;
+    width: 35em auto;
     height: 23em;
     border-radius: 1em;
 }
