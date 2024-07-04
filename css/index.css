@@ -28,7 +28,7 @@ body {
     gap: .5em;
     font-size: 140%;
     position: fixed;
-    right: 2em;
+    right: 1em;
     bottom: 2em;
     z-index: 999;
 }
