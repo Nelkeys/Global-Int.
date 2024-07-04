@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') all;
+@import url(animations.css) all;
 
 * {
     margin: 0;
@@ -188,12 +189,12 @@ nav ul li a {
     justify-content: center;
     background: var(--green);
     border-radius: 50%;
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
 }
 
 .green i {
-    font-size: 200%;
+    font-size: 190%;
     color: var(--background);
 }
 
@@ -201,6 +202,10 @@ nav ul li a {
     color: var(--green);
 }
 
+.advert-div-text{
+    line-height: 2.5em;
+    font-size: 80%;
+}
 
 
 
@@ -351,6 +356,15 @@ nav ul li a {
 
 .hero3-right p {
     width: 80%;
+}
+.hero3-link{
+    margin-top: 2em;
+}
+.hero3-link a{
+    padding: .5em 1.5em;
+    background: var(--green);
+    color: var(--background);
+    border-radius: 2em;
 }
 
 
@@ -621,372 +635,4 @@ footer div .f-mail i {
 
 .bxl-whatsapp {
     font-size: 160%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:1650px) {
-    header {
-        padding: 0 15em;
-    }
-
-    .hero,
-    .hero2,
-    .welcome-message,
-    .why-choose,
-    .pricing,
-    .addresses,
-    .reviews {
-        margin: 10em 15em;
-    }
-
-    .addresses,
-    .reviews {
-        margin: 10em 0;
-    }
-
-    footer {
-        padding: 10em 15em;
-    }
-}
-
-@media (max-width:1400px) {
-    header {
-        padding: 0 12em;
-    }
-
-    .hero,
-    .hero2,
-    .welcome-message,
-    .why-choose,
-    .pricing {
-        margin: 10em 15em;
-    }
-
-    .addresses,
-    .reviews {
-        margin: 10em 0;
-    }
-
-    footer {
-        padding: 10em 15em;
-    }
-
-}
-
-
-
-@media (max-width:1200px) {
-    header {
-        padding: 0 8em;
-    }
-
-    .hero,
-    .hero2,
-    .welcome-message,
-    .why-choose,
-    .pricing {
-        margin: 10em 8em;
-    }
-
-    .addresses,
-    .reviews {
-        margin: 10em 0;
-    }
-
-    footer {
-        padding: 10em 8em;
-    }
-}
-
-@media (max-width:1100px) {
-    header {
-        padding: 0 6em;
-    }
-
-    .hero,
-    .hero2,
-    .welcome-message,
-    .why-choose,
-    .pricing {
-        margin: 10em 6em;
-    }
-
-    .addresses,
-    .reviews {
-        margin: 10em 0;
-    }
-
-    footer {
-        padding: 10em 6em;
-    }
-}
-
-@media (max-width:970px) {
-    header {
-        padding: 0 4em;
-    }
-
-    .hero,
-    .hero2,
-    .welcome-message,
-    .why-choose,
-    .pricing {
-        margin: 10em 4em;
-    }
-
-    .addresses,
-    .reviews {
-        margin: 10em 0;
-    }
-
-    footer {
-        padding: 10em 4em;
-    }
-}
-
-@media (max-width:800px) {
-    header {
-        padding: 0 1em;
-    }
-
-    .hero,
-    .hero2,
-    .welcome-message,
-    .why-choose,
-    .pricing {
-        margin: 10em 1em;
-    }
-
-    .addresses,
-    .reviews {
-        margin: 10em 0;
-    }
-
-    footer {
-        padding: 10em 1em;
-    }
-}
-
-@media (max-width: 750px) {
-    body {
-        font-size: 13px !important;
-    }
-
-    header {
-        flex-direction: column;
-        height: auto !important;
-    }
-
-    .logo {
-        margin: 1em;
-    }
-
-    nav ul {
-        gap: 1em !important;
-        flex-direction: column;
-    }
-
-    .btns {
-        flex-direction: column;
-        gap: 1em;
-        margin: 1em 0;
-    }
-
-    .hero {
-        margin: 5em 2em;
-        flex-direction: column;
-    }
-
-    .hero-link {
-        display: flex;
-        justify-content: center;
-    }
-
-    .hero img {
-        width: 100%;
-        height: auto;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-
-    .hero h1 {
-        font-size: 140%;
-    }
-
-
-
-
-
-
-    .advert-box {
-        border: none;
-        flex-direction: column;
-        gap: 3em;
-        padding: 2em 2em !important;
-    }
-
-    .advert-div {
-        flex-direction: column;
-    }
-
-
-
-
-
-    .hero2 {
-        flex-direction: column;
-        margin: 8em 2em;
-        gap: 3em;
-    }
-
-    .hero2 img {
-        width: 90%;
-        height: auto;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-
-    .hero2-right h1 {
-        font-size: 140%;
-    }
-
-    .hero2-link {
-        display: flex;
-        justify-content: center;
-    }
-
-
-
-
-    .welcome-message {
-        margin: 8em 2em;
-    }
-
-    .welcome-message h1 {
-        text-align: start;
-        width: 100%;
-        font-size: 140%;
-        margin-bottom: .5em;
-    }
-
-    .welcome-article {
-        width: 100% !important;
-        align-items: start;
-        flex-direction: column;
-        gap: 2em;
-    }
-
-    .welcome-article p {
-        width: 100%;
-        margin-top: 2em;
-    }
-
-
-
-    .why-choose {
-        margin: 8em 2em;
-    }
-
-    .why-choose h2 {
-        text-align: start;
-        font-size: 140%;
-    }
-
-    .why-points {
-        flex-direction: column;
-    }
-
-    .point {
-        padding: 2.5em 1em;
-    }
-
-
-
-
-
-    .pricing {
-        margin: 8em 2em;
-    }
-
-    .prices {
-        flex-direction: column;
-    }
-
-
-
-
-
-
-    .addresses {
-        margin: 8em 0;
-    }
-
-    .qr-boxes {
-        flex-direction: column;
-    }
-
-    .qr-boxes img {
-        width: 18em;
-    }
-
-    .hero3 {
-        margin: 8em 2em;
-        flex-direction: column;
-    }
-
-    .hero3 img {
-        width: 90%;
-        margin-left: 0 !important;
-    }
-
-    .hero3-link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 2em;
-    }
-
-    .hero3-link a {
-        padding: .5em 1.5em;
-        background: var(--green);
-        color: var(--background);
-        border-radius: 2em;
-    }
-
-    .reviews {
-        margin: 8em 0;
-    }
-
-    .row {
-        flex-direction: column;
-    }
-
-    .review {
-        width: 80%;
-    }
-
-
-
-    footer {
-        padding: 5em 2em;
-        flex-direction: column;
-    }
-
-    footer div {
-        width: 100%;
-    }
-
-    .footer-top p {
-        width: 90%;
-    }
 }

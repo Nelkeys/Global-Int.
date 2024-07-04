@@ -1,0 +1,47 @@
+/* CSS for fade-left animation */
+.fade-left {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity .5s ease-out, transform .5s ease-out;
+}
+
+.fade-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* CSS for fade-right animation */
+.fade-right {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity .5s ease-out, transform .5s ease-out;
+}
+
+.fade-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* CSS for fade-up animation */
+.fade-up {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity .5s ease-out, transform .5s ease-out;
+}
+
+.fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* CSS for fade-down animation */
+.fade-down {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity .5s ease-out, transform .5s ease-out;
+}
+
+.fade-down.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

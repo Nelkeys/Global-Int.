@@ -26,18 +26,3 @@ document.querySelectorAll('.copy-address').forEach(copyButton => {
     });
 });
 
-
-document.querySelectorAll('.smooth-scroll').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        if (this.hash !== "") {
-            e.preventDefault();
-            const targetId = this.hash.substring(1);
-            const targetElement = document.getElementById(targetId);
-
-            window.scrollTo({
-                top: targetElement.offsetTop - document.querySelector('header').offsetHeight,
-                behavior: 'smooth'
-            });
-        }
-    });
-});
